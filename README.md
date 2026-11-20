@@ -99,11 +99,7 @@ network-lab/
 ├── README.md
 │
 ├── documentation/
-│   └── lab-report.pdf
-│
-└── scripts/
-    ├── script.sh
-    └── svcmon.ps1
+    └── lab-report.pdf
 ```
 
 ## Author
