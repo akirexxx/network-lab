@@ -9,28 +9,30 @@ The project involved setting up and securing a virtual network
 environment using Windows Server and Ubuntu Server, with a focus on
 system administration, network configuration and security.
 
-------------------------------------------------------------------------
+---
+
 ## 🖥️ Lab environment
 
-  Component        Configuration
-  ---------------- ---------------------------
-  Virtualization   VMware
-  Windows server   Windows Server 2025
-  Linux server     Ubuntu Server 26.04
-  Domain           `nordkap.internal`
-  Network          NAT -- `192.168.113.0/24`
+| Component | Configuration |
+|---|---|
+| Virtualization | VMware |
+| Windows server | Windows Server 2025 |
+| Linux server | Ubuntu Server 26.04 |
+| Domain | `nordkap.internal` |
+| Network | NAT – `192.168.113.0/24` |
 
 ## 🛠️ Technologies & tools
 
-  Windows              Linux               Networking & scripting
-  -------------------- ------------------- ------------------------
-  Active Directory     Apache              NAT
-  DNS                  UFW                 IP forwarding
-  Group Policy (GPO)   Linux permissions   Firewall rules
-  NTFS permissions     SMB / smbclient     Bash & PowerShell
-  Windows Firewall     Access logs         Regular expressions
+| Windows | Linux | Networking & scripting |
+|---|---|---|
+| Active Directory | Apache | NAT |
+| DNS | UFW | IP forwarding |
+| Group Policy (GPO) | Linux permissions | Firewall rules |
+| NTFS permissions | SMB / smbclient | Bash & PowerShell |
+| Windows Firewall | Access logs | Regular expressions |
 
-------------------------------------------------------------------------
+---
+
 ## What I built
 
 ### 1. Windows Server & Active Directory
